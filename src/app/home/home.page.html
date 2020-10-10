@@ -1,0 +1,60 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header> -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<ion-content [fullscreen]="true">
+
+  <ion-header>
+    <div style="background-color: #cc0000;">
+      <h1 style="text-align:center; font-size:30pt; font-family: 'Roboto', sans-serif;">EDIMARIS</h1>
+    </div>
+  </ion-header>
+
+
+
+  <ion-list>
+    <ion-item>
+      Carros
+      <ion-badge slot="end" color="warning">3</ion-badge>
+    </ion-item>
+
+    <ion-item>
+      Estoque
+      <ion-badge slot="end" color="warning">13</ion-badge>
+    </ion-item>
+  </ion-list>
+
+
+
+
+  <ion-fab vertical="bottom" horizontal="end">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+
+    <ion-fab-list side="top">
+      <ion-fab-button>
+        <ion-icon name="person"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+
+    <ion-fab-list side="start">
+
+        <ion-fab-button (click)="mostrarCarros()">
+           <ion-icon name="car"></ion-icon>
+        </ion-fab-button>
+       
+      <ion-fab-button>
+        <ion-icon name="cash"></ion-icon>
+      </ion-fab-button>
+
+      <ion-fab-button>
+        <ion-icon name="newspaper"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-content>
