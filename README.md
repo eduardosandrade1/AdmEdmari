@@ -1,11 +1,17 @@
-# AdmEdmari
+# AdmOficina
+Status: Em desenvolvimento :warning:
 
- <h2>Este é um app de gerenciamento de uma oficina de <i> > Funilaria e pintura.</i><h2><br><br>
- 
+![Badge](https://img.shields.io/static/v1?label=ionic&message=framework&color=blue&style=for-the-badge&logo=IONIC)
+![Badge](https://img.shields.io/static/v1?label=angular&message=framework&color=red&style=for-the-badge&logo=ANGULAR)
+![Badge](https://img.shields.io/static/v1?label=php&message=api&color=blue&style=for-the-badge&logo=PHP)
+![Badge](https://img.shields.io/static/v1?label=mysql&message=database&color=blue&style=for-the-badge&logo=MYSQL)
+
+ <h2>Este é um app de gerenciamento de uma oficina de <i> > Funilaria e pintura.</i><h2><br><br> 
+
  <p>Como funciona o gerenciamento → 
     Há páginas que serão acessadas através de um floating button, navegando para as áreas de:
     <ul>
-      <li>Finanças → calcula os ganhos e gastos, de acordo com cada mês do ano.</li><br>
+      <li> Finanças → calcula os ganhos e gastos, de acordo com cada mês do ano.</li><br> 
       <li>Estoque de materias → Adicionar os novos materias,
       e quando fazer um serviço e estiver concluído, irá retirar do estoque o material que foi usado.</li><br>
       <li>Carros → Mostrar todos os carros que foram concluídos e os que tem que ainda não foram. 
